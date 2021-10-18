@@ -145,4 +145,42 @@ ul li .fa-clock {
 .choose-ipi-box {
   padding: 2rem 1rem;
 }
+.our-blogs .left-title {
+  text-align: center;
+}
+.our-blogs .what-people {
+  margin-top: 2rem;
+}
+.choose-ipi {
+  min-height: 300px;
+}
+.text-release {
+  font-size: 12px;
+}
+.choose-ipi-box h3 {
+  font-size: 28px;
+}
+.banner .actions a {
+  font-size: 12px;
+}
+.find-your-course {
+  position: relative;
+  text-align: center;
+}
+.find-your-course .btn-search {
+  margin-top: 1rem;
+}
+.choose-ipi-box {
+  padding: 2rem 1rem;
+  font-size: 12px;
+}
+.choose-ipi-box p {
+  padding: 2rem 0;
+}
+.our-news-card .card {
+  margin-bottom: 3rem;
+}
+h2 {
+  font-size: 24px;
+}
 }

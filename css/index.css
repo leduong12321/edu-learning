@@ -139,6 +139,9 @@ header .box-logo {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
 }
+.btn-search:hover {
+  color: #F16328;
+}
 
 .find-your-course {
   position: absolute;
@@ -212,7 +215,7 @@ header .box-logo {
   font-size: 20px;
   color: white;
   font-weight: 600;
-  width: 92%;
+  width: calc(100% - 30px);
 }
 
 .image__img {
@@ -394,11 +397,22 @@ header .box-logo {
 .testimonial .content {
   margin-top: 1.5rem;
 }
-
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: none repeat scroll 0 0 #869791;
+  border-radius: 20px;
+  display: block;
+  height: 12px;
+  margin: 5px 7px;
+  opacity: 0.5;
+  width: 12px;
+}
 .owl-theme .owl-controls .owl-page span {
   border: 2px solid #C4C4C4;
   background: #C4C4C4 !important;
-  border-radius: 0 !important;
+  border-radius: 50% !important;
   opacity: 1;
 }
 .owl-theme .owl-controls .owl-page.active span,
@@ -421,12 +435,11 @@ header .box-logo {
   justify-content:center;
 } 
 .owl-theme  span {
-    font-size: 3px;    
+    font-size: 1px;    
     position: relative;
     top: -2px;
     margin: 5px;
 }
-
 .our-blogs {
   background-color: #F8F8F8;
   width: 100%;
@@ -522,6 +535,24 @@ footer .copyright-text {
 
 
 @media screen and (max-width: 767px) {
+  .our-blogs .left-title {
+    text-align: center;
+  }
+  .our-blogs .what-people {
+    margin-top: 2rem;
+  }
+  .choose-ipi {
+    min-height: 300px;
+  }
+  .text-release {
+    font-size: 12px;
+  }
+  .choose-ipi-box h3 {
+    font-size: 28px;
+  }
+  .banner .actions a {
+    font-size: 12px;
+  }
   .find-your-course {
     position: relative;
     text-align: center;
@@ -529,17 +560,18 @@ footer .copyright-text {
   .find-your-course .btn-search {
     margin-top: 1rem;
   }
-  /* .image-course {
-    padding-left: 30px;
-  } */
   .choose-ipi-box {
     padding: 2rem 1rem;
+    font-size: 12px;
+  }
+  .choose-ipi-box p {
+    padding: 2rem 0;
   }
   .our-news-card .card {
     margin-bottom: 3rem;
   }
   h2 {
-    font-size: 35px;
+    font-size: 24px;
   }
   h3 {
     font-size: 28px;
@@ -624,12 +656,13 @@ footer .copyright-text {
     font-size: 16px;
   }
   .banner {
-    min-height: 70vh;
+    min-height: 40vh;
   }
   .banner .actions h1 {
-    font-size: 40px;
+    font-size: 24px;
     color: white;
     padding: 0 2rem;
+    padding-top: 1rem;
   }
   .section {
     padding: 2rem 0rem;
@@ -664,6 +697,12 @@ footer .copyright-text {
   }
   footer .box-logo {
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .image__overlay .btn-course {
+    margin: 1rem 0rem;
   }
 }
 

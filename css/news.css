@@ -87,6 +87,7 @@
   }
   .left-title {
     padding-left: 30px;
+    padding-top: 0rem;
   }
   .find-your-course .btn-search {
     margin-top: 1rem;
@@ -95,10 +96,10 @@
     padding-left: 30px;
   } */
   .banner {
-    min-height: 400px;
+    min-height: 275px;
 }
   .banner .actions h1 {
-    font-size: 40px;
+    font-size: 28px;
     text-align: center;
   }
   
