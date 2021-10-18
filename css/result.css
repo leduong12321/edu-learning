@@ -1,0 +1,148 @@
+
+@import url('./register.css');
+
+.section {
+  font-family: 'Nunito Sans', sans-serif;
+  color: red;
+}
+.left {
+  background-color: white;
+}
+.left .content {
+  padding-left: 8rem;
+  padding-bottom: 5rem;
+}
+.right {
+  background-color: #EFEFEF;
+}
+.left-title {
+  text-align : left;
+  color : #F16328 ;
+  font-weight: 600;
+  margin: 2rem 0rem;
+}
+.left .content {
+  margin-left: 8rem;
+  position: relative;
+}
+.card-head {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  color: #5B5B5C;
+  font-weight: 700;
+  font-size: 16px;
+  padding:1rem;
+  color: #F16328;
+}
+.card {
+  max-width: 420px;
+}
+
+ ul {
+  list-style: none;
+}
+ ul li {
+  padding-top: 0.5rem;
+  
+}
+ ul li a {
+  color: #737374;
+  font-size: 14px;
+}
+ ul li a:hover {
+  color: #737374;
+  text-decoration:none;
+}
+ ul li i {
+  color: #F16328;
+  font-size: 14px;
+  margin-right: 4px;
+}
+ul li .fa-clock {
+  color: #737374;
+}
+.custom {
+  position: absolute;
+  left: 0;
+  max-height: 390px;
+}
+
+.right {
+  padding:5rem 0rem;
+  
+}
+.right .content {
+  max-width: 445px;
+  padding-left: 2rem;
+}
+.right .sub-title {
+  color: #5B5B5C;
+  font-size: 16px;
+  font-weight: 700;
+}
+.right .title {
+  color: #5B5B5C;
+  font-size: 20px;
+  font-weight: 700;
+}
+.right p {
+  color: #737374;
+  font-size: 14px;
+  font-weight: 400;
+}
+.right a {
+  color: #F16328;
+}
+.btn-about-us {
+  color: white !important;
+}
+/*--------Choose ipi---------*/
+.choose-ipi-box {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  color: #FFF;
+}
+.choose-ipi-box .title {
+  color: #FFF;
+}
+.choose-ipi-box p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.choose-ipi-box h3 {
+  color: #E76934;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 80px;
+  font-weight:700;
+}
+.choose-ipi {
+  background-image: url("../assets/images/bg-ipi-gradient.png"),
+    url("../assets/images/bg-ipi.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 473px;
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+}
+
+
+@media screen and (max-width: 767px) {
+  .left .content {
+    padding-left: 0rem;
+    margin-bottom: 2rem;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .right .content {
+    padding: 1rem 2rem;
+  }
+  /* .section {
+    padding: 0rem 0rem;
+} */
+.choose-ipi-box {
+  padding: 2rem 1rem;
+}
+}

@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+}
+
+.main {
+  position: relative;
+}
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 28px;
+  color: #d1539b;
+  padding-bottom: 2rem;
+}
+.banner {
+  position: relative;
+  min-height: 100vh;
+  color: #c4c4c4;
+}
+.banner-bg {
+  background-size: 100% 100%;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-image: 
+    url("../assets/images/header-banner.png");
+}
+
+header {
+  margin: 0 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+header .box-logo {
+  background-image: url("../assets/images/bg-logo.png");
+  width: 140px;
+  height: 170px;
+}
+.logo {
+  max-width: 122px;
+  max-height: 116px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.nav .nav-item {
+  margin: 0 2rem;
+}
+.nav .nav-item a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav .nav-item a:hover {
+  color: #cfcfcf;
+  cursor: pointer;
+}
+
+.menu-bar i {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.banner {
+  position: relative;
+}
+.banner .context {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner .paragraph {
+  color: #c4c4c4;
+  font-size: 20px;
+}
+.banner .actions {
+  position: absolute;
+  max-width: 500px;
+  top: 35%;
+  left: 30%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+.banner .actions h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5B5B5C;
+  font-size: 60px;
+}
+.banner .actions p {
+  font-weight: 700;
+  color: #efefef;
+  font-size: 20px;
+}
+.banner .actions a {
+  font-size: 16px;
+}
+.btn-contact {
+  background-color: #F16328;
+  color: white;
+  margin: 0 2rem;
+
+}
+.btn {
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn:hover {
+  color: white;
+}
+.btn-about-us {
+  background-color: #F16328;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.btn-search {
+  background-color: white;
+  color: #F16328;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+}
+
+.find-your-course {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(115, 115, 116, 0.7);
+  padding: 2rem 0px;
+  color: #FFF;
+}
+.find-your-course h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+.find-your-course .text-center {
+  color: #FFF;
+}
+.find-your-course input {
+  color: white;
+  padding: 8px 16px;
+  margin: 0 3rem;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  border-bottom: 1px solid #FFF;
+}
+.find-your-course input:focus {
+  outline: none;
+}
+::placeholder {
+  color: #FFF;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #FFF;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #FFF;
+}
+
+/*--------Our Courses---------*/
+.section .title {
+  margin: 40px 0px;
+}
+.section .title  {
+  font-size: 16px;
+}
+.section .title .line {
+  width: 80px;
+  height: 3px;
+  background-color: #F16328;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.our-courses {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  color: black;
+}
+
+.image-course .sub-text {
+  bottom: 0px;
+  position: absolute;
+  background: rgba(115, 115, 116, 0.6);
+  padding: 1rem 0rem;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  width: 92%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 30px);
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.25s;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 8px;
+  padding: 28px 16px;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+  background-color:rgba(0, 0, 0, 0.7);
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+.image__overlay .btn-course {
+  margin: 3rem 0rem;
+}
+.image__overlay .btn-course span {
+  padding-left: 16px;
+}
+
+.image__overlay .btn-course button {
+  background-color: transparent;
+  border-color: #FFF;
+  color: #FFF;
+}
+
+.image__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 14px;
+  margin-top: 0.25em;
+}
+
+
+/*--------Choose ipi---------*/
+.choose-ipi-box {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  color: #FFF;
+}
+.choose-ipi-box .title {
+  color: #FFF;
+}
+.choose-ipi-box p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.choose-ipi-box h3 {
+  color: #E76934;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 80px;
+  font-weight:700;
+}
+.choose-ipi {
+  background-image: url("../assets/images/bg-ipi-gradient.png"),
+    url("../assets/images/bg-ipi.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 473px;
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+}
+
+/*------OUR NEWS----------*/
+.our-news-card {
+  text-align: left;
+}
+.our-news .card {
+  border: none;
+}
+.our-news .card  .more-info {
+  margin: 1rem 0;
+}
+.our-news .card-body {
+  padding: 0px;
+}
+.our-news .card .txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #737374;
+
+}
+
+.our-news .card-title {
+  font-size: 20px;
+  color: #5B5B5C;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.our-news .card-text {
+  font-size: 16px;
+  color: #5B5B5C;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.our-news .card-body a {
+  color: #F16328;
+  font-weight: 400;
+  text-decoration: underline;
+}
+/*----------OUR BLOGS-----------*/
+
+.testimonial {
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial .description {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #6f6f6f;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.testimonial .people {
+  background-color: white;
+  padding: 1rem;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+.testimonial .people .avatar {
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.testimonial .people .right {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+.testimonial .people .right .name {
+  text-align: left;
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #5b5b5c;
+}
+.testimonial .content {
+  margin-top: 1.5rem;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  border: 2px solid #C4C4C4;
+  background: #C4C4C4 !important;
+  border-radius: 0 !important;
+  opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span {
+  background: #F16328 !important;
+  border-color: #F16328;
+}
+@media only screen and (max-width: 767px) {
+  .testimonial {
+    padding: 20px;
+    text-align: center;
+  }
+  .item-course, .our-news-card {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.owl-theme .owl-controls .owl-pagination {
+  display: flex;
+  justify-content:center;
+} 
+.owl-theme  span {
+    font-size: 3px;    
+    position: relative;
+    top: -2px;
+    margin: 5px;
+}
+
+.our-blogs {
+  background-color: #F8F8F8;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 2rem 0;
+}
+
+.our-blogs .left-title {
+  text-align: left;
+  color: #F16328;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+} 
+
+
+
+
+
+/*--------CONTACT-----------*/
+footer {
+  background-color: #5B5B5C;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+footer .box-logo {
+  background-image: url("../assets/images/bg-logo.png");
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 170px;
+}
+.logo {
+  max-width: 110px;
+  max-height: 116px;
+  margin-top: 25px;
+  object-fit: cover;
+}
+.info-footer .title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  padding-top: 0.5rem;
+  
+}
+footer ul li a {
+  color: #EFEFEF;
+  font-size: 14px;
+}
+footer ul li a:hover {
+  color: white;
+}
+footer ul li i {
+  color: #F16328;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+footer .privacy i {
+  color: #EFEFEF;
+  font-size: 14px;
+  margin-right: 16px;
+}
+footer .copyright-text {
+  font-size: 14px;
+  color: #AAABAC;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .nav .nav-item {
+    margin: 0 1rem;
+  }
+  .banner .actions h1 {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .find-your-course {
+    position: relative;
+    text-align: center;
+  }
+  .find-your-course .btn-search {
+    margin-top: 1rem;
+  }
+  /* .image-course {
+    padding-left: 30px;
+  } */
+  .choose-ipi-box {
+    padding: 2rem 1rem;
+  }
+  .our-news-card .card {
+    margin-bottom: 3rem;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  header {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px;
+  }
+  header .logo {
+    position: absolute;
+    max-width: 60px;
+    max-height: 50px;
+    top: 4px;
+    left: 16px;
+  }
+  header .box-logo {
+    background-size: 60%;
+    background-repeat: no-repeat;
+  } 
+
+  .banner .actions {
+    display: block;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+  }
+  .menu-bar {
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .hidden-nav {
+    opacity: 0;
+    z-index: -99;
+    visibility: hidden;
+  }
+  .nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #F16328;
+    background-size: cover;
+    z-index: 99;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .nav .nav-item {
+    margin: 0.5rem auto;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+  .nav-none {
+    display: none !important;
+  }
+  .show-nav {
+    display : none !important;
+  }
+  .hide-menu-1 {
+    display : none !important;
+  }
+  .hide-menu-2 {
+    display : none !important;
+  }
+  .banner .context {
+    width: 93%;
+  }
+  .banner .paragraph {
+    font-size: 16px;
+  }
+  .banner {
+    min-height: 70vh;
+  }
+  .banner .actions h1 {
+    font-size: 40px;
+    color: white;
+    padding: 0 2rem;
+  }
+  .section {
+    padding: 2rem 0rem;
+  }
+  .section .img-stake {
+    padding-top: 3rem;
+  }
+  .section .img-stake img {
+    width: 100%;
+  }
+  .our_partners .text {
+    font-size: 1rem;
+    align-items: center;
+  }
+  .title-partner {
+    padding-right: 0px !important;
+  }
+  .title-partner h4 {
+    padding-bottom: 1rem;
+  }
+  footer {
+    text-align: center;
+    background-color: #030a34;
+  }
+  footer .copyright > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .copyright .privacy {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  footer .box-logo {
+    margin: 0 auto;
+  }
+}
+
+

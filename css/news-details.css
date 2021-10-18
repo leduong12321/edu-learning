@@ -1,0 +1,73 @@
+@import url('./news.css');
+
+
+.how-to-learn {
+  color: black;
+  margin: 3rem 10rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.how-to-learn .title {
+  color: #5B5B5C;
+  font-weight: 700;
+  font-size: 28px;
+}
+.how-to-learn .students-learn {
+  margin: 2rem auto;
+  display: flex;
+}
+.privacy-news {
+  justify-content: flex-end;
+}
+.privacy-news  i {
+  padding: 12px;
+  border-radius: 6px;
+  color: white;
+  margin-left: 8px;
+}
+.privacy-news  .fa-facebook-f {
+  border: 1px solid #4267B2;
+  background-color: #4267B2;
+}
+.privacy-news  .fa-twitter {
+  border: 1px solid #55ACEE;
+
+  background-color: #55ACEE;
+}
+.privacy-news  .fa-instagram {
+  border: 1px solid #CB2027;
+
+  background-color: #CB2027;
+}
+.privacy-news  .fa-youtube {
+  border: 1px solid #7D7D7D;
+
+  background-color: #7D7D7D;
+}
+.privacy-news  .fa-medium-m {
+  border: 1px solid #0077B5;
+
+  background-color: #0077B5;
+}
+.privacy-news  .fa-linkedin-in {
+  border: 1px solid #25D366;
+
+  background-color: #25D366;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .how-to-learn {
+    margin: 1rem;
+  }
+  .how-to-learn .students-learn {
+    margin: 2rem auto;
+    display: flex;
+    width: 100%;
+  }
+
+ 
+}
+

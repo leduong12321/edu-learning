@@ -1,0 +1,106 @@
+@import url('./index.css');
+
+.banner {
+  position: relative;
+  min-height: 510px;
+  color: #c4c4c4;
+}
+.banner-bg {
+  background-size: 100% 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-image: 
+  url("../assets/images/bg-new-detail.png"), url("../assets/images/banner-new-detail.png");
+}
+
+.banner .actions {
+  position: absolute;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+.banner .actions h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  font-size: 56px;
+}
+.banner .actions .line {
+  width: 80px;
+  height: 3px;
+  background-color: #F16328;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+
+.our-blogs {
+  background-color: #F8F8F8;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 2rem 0;
+}
+
+ .left-title {
+  text-align: left;
+  color: #F16328;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-left: 0px;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+} 
+
+.btn-search {
+  background-color: white;
+  color: #F16328;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  border: 1px solid #F16328;
+}
+.btn-search:hover {
+  color: #F16328;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .find-your-course {
+    position: relative;
+    text-align: center;
+  }
+  .left-title {
+    padding-left: 30px;
+  }
+  .find-your-course .btn-search {
+    margin-top: 1rem;
+  }
+  /* .image-course {
+    padding-left: 30px;
+  } */
+  .banner {
+    min-height: 400px;
+}
+  .banner .actions h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+}
+

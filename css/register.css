@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+}
+
+.main {
+  position: relative;
+}
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 28px;
+  color: #d1539b;
+  padding-bottom: 2rem;
+}
+.banner {
+  position: relative;
+  min-height: 510px;
+  color: #c4c4c4;
+}
+
+.full-nav {
+  background-color: white;
+  box-shadow: 0 4px 2px -1px gray;
+}
+
+header {
+  margin: 0 5rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.logo {
+  max-width: 122px;
+  max-height: 116px;
+  margin-top: 20px;
+  object-fit: cover;
+  background-color: white;
+  padding: 10px;
+}
+.nav .nav-item {
+  margin: 0 2rem;
+}
+.nav .nav-item a {
+  color: #F16328;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav .nav-item a:hover {
+  color: #cfcfcf;
+  cursor: pointer;
+}
+
+.menu-bar i {
+  font-weight: bold;
+  color: #F16328;
+  font-size: 20px;
+}
+
+.btn-contact {
+  background-color: #F16328;
+  color: white;
+  margin: 0 2rem;
+
+}
+.btn {
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn:hover {
+  color: white;
+}
+.btn-about-us {
+  background-color: #F16328;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.btn-search {
+  background-color: white;
+  color: #F16328;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  border: 1px solid #F16328;
+}
+.btn-search:hover {
+  color: #F16328;
+}
+.register-now {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/*--------CONTACT-----------*/
+footer {
+  background-color: #5B5B5C;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+footer .box-logo {
+  background-image: url("../assets/images/bg-logo.png");
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 170px;
+}
+.logo {
+  max-width: 110px;
+  max-height: 116px;
+  margin-top: 0px;
+  object-fit: cover;
+  background-color: transparent;
+}
+.info-footer .title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  padding-top: 0.5rem;
+  
+}
+footer ul li a {
+  color: #EFEFEF;
+  font-size: 14px;
+}
+footer ul li a:hover {
+  color: white;
+}
+footer ul li i {
+  color: #F16328;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+footer .privacy i {
+  color: #EFEFEF;
+  font-size: 14px;
+  margin-right: 16px;
+}
+footer .copyright-text {
+  font-size: 14px;
+  color: #AAABAC;
+}
+
+.register {
+  color: #5B5B5C;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 5rem 10rem;
+}
+.register .title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 1.5rem;
+}
+
+.terms {
+  color: #F16328;
+  font-style: italic;
+}
+form input {
+  height: 40px !important;
+}
+form select {
+  height: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .nav .nav-item {
+    margin: 0 1rem;
+  }
+  .banner .actions h1 {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .banner-register {
+    width: 100%;
+  }
+  .banner-register img {
+    width: 100%;
+  }
+  .register {
+    margin: 1rem;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  header {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px;
+  }
+  header .logo {
+    position: absolute;
+    max-width: 60px;
+    max-height: 50px;
+    top: 4px;
+    left: 16px;
+  }
+  header .box-logo {
+    background-size: 60%;
+    background-repeat: no-repeat;
+  } 
+
+  .menu-bar {
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .hidden-nav {
+    opacity: 0;
+    z-index: -99;
+    visibility: hidden;
+  }
+  .nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #F16328;
+    background-size: cover;
+    z-index: 99;
+    overflow: hidden;
+    flex-direction: column;
+    color: white;
+  }
+  .nav .nav-item {
+    margin: 0.5rem auto;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    color: white;
+  }
+  .nav .nav-item a {
+    color: white;
+  }
+  .fa-bars {
+    color: #CDCDCD !important;
+    top: 0px !important;
+  }
+  .nav-none {
+    display: none !important;
+  }
+  .show-nav {
+    display : none !important;
+  }
+  .hide-menu-1 {
+    display : none !important;
+  }
+  .hide-menu-2 {
+    display : none !important;
+  }
+  .banner .context {
+    width: 93%;
+  }
+  .banner .paragraph {
+    font-size: 16px;
+  }
+  .section {
+    padding: 3rem 0rem;
+  }
+  .section .img-stake {
+    padding-top: 3rem;
+  }
+  .section .img-stake img {
+    width: 100%;
+  }
+  .our_partners .text {
+    font-size: 1rem;
+    align-items: center;
+  }
+  .title-partner {
+    padding-right: 0px !important;
+  }
+  .title-partner h4 {
+    padding-bottom: 1rem;
+  }
+  footer {
+    text-align: center;
+    background-color: #030a34;
+  }
+  footer .copyright > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .copyright .privacy {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  footer .box-logo {
+    margin: 0 auto;
+  }
+}
+
