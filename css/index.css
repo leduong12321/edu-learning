@@ -704,6 +704,27 @@ footer .copyright-text {
   .image__overlay .btn-course {
     margin: 1rem 0rem;
   }
+  .banner .actions h1 {
+    font-size: 16px;
+    padding-top: 1.75rem;
+  }
+  .banner .actions p {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  .banner .actions a {
+    font-size: 10px;
+  }
+  .btn-course button {
+    width: 100%;
+    max-width: 110px;
+  }
+  .image__overlay .btn-course span {
+    padding-left: 4px;
+  }
+  .text-release {
+    font-size: 10px;
+  }
 }
 
 
