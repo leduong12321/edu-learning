@@ -182,7 +182,15 @@ form input {
 }
 form select {
   height: 40px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../assets/images/arrow.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
 }
+
 
 
 
